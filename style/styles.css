@@ -406,6 +406,7 @@ body{
 }
 
 @media screen and (max-width: 576px) {
+    /* Navigation Not Done */
     .nav-div{
         border-bottom: 2px solid orange;
         width: 100%;
