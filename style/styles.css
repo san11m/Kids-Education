@@ -65,6 +65,7 @@ body{
 }
 .contact-btn:hover{
     background-color: darkorange;
+    box-shadow: 0.2rem 0.2rem .3rem rgb(1, 172, 253);
 }
 
 /* Banner Section */
@@ -102,6 +103,10 @@ body{
     width: 200px;
     height: 50px;
     border-radius: 12px;
+}
+.banner-btn:hover{
+    background-color: black;
+    box-shadow: .2rem .2rem .3rem rgb(1, 172, 253);
 }
 /* Curriculum Section  */
 
@@ -177,6 +182,7 @@ body{
     font-weight: 700;
     font-size: 16px;
 }
+
 .slide-icon-box{
     display: flex;
     justify-content: center;
@@ -237,6 +243,10 @@ body{
     top: -20px;
     right: -38px;
 }
+.date-card-1:hover{
+    background-color: black;
+    box-shadow: .2rem .2rem .3rem rgb(1, 172, 253);
+}
 .card1-text{
     padding-left: 39px;
     padding-right: 39px;
@@ -280,6 +290,10 @@ body{
     top: -30px;
     right: -30px;
 }
+.date-green:hover{
+    background-color: black;
+    box-shadow: .2rem .2rem .3rem rgb(1, 172, 253);
+}
 .date-purple{
     font-size: 16px;
     color: rgb(255, 255, 255);
@@ -292,6 +306,10 @@ body{
     position: relative;
     top: -30px;
     right: -30px;
+}
+.date-purple:hover{
+    background-color: black;
+    box-shadow: .2rem .2rem .3rem rgb(1, 172, 253);
 }
 .grid-card-title{
     text-align: start;
@@ -317,6 +335,10 @@ body{
     background-color: rgb(17, 17, 17);
     margin-top: 100px;
     margin-bottom: 60px;
+}
+.story-btn:hover{
+    background-color: black;
+    box-shadow: .2rem .2rem .3rem rgb(1, 172, 253);
 }
 /* Footer */
 
