@@ -415,7 +415,7 @@ body{
     /* Navigation Not Done */
     .nav-div{
         border-bottom: 2px solid orange;
-        width: 18rem;
+        width: 16rem;
         height: auto;
     }
     .nav-logo, .menu-icon{
