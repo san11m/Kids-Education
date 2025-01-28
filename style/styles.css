@@ -5,10 +5,9 @@ body{
 }
 
 /* Navigation Bar */
-
 .nav-bar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -66,6 +65,13 @@ body{
 .contact-btn:hover{
     background-color: darkorange;
     box-shadow: 0.2rem 0.2rem .3rem rgb(1, 172, 253);
+}
+.menu-img{
+    width: 3rem;
+    height: auto;
+}
+.menu-icon{
+    display: none;
 }
 
 /* Banner Section */
@@ -409,8 +415,17 @@ body{
     /* Navigation Not Done */
     .nav-div{
         border-bottom: 2px solid orange;
-        width: 100%;
+        width: 18rem;
+        height: auto;
+    }
+    .nav-logo, .menu-icon{
+        display: flex;
         justify-content: space-between;
+        align-items: center;
+    }
+    .logo-img, .menu-img{
+        width: 3rem;
+        height: auto;
     }
     .nav-title, .nav-middle, .contact-btn{
         display: none;
@@ -440,7 +455,7 @@ body{
         margin-right: 6.5rem;
     }
     .banner-image{
-        width: 100%;
+        width: 15rem;
         height: auto;
     }
     /* Curriculum */
